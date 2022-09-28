@@ -1,0 +1,41 @@
+local args = {
+    [1] = {
+        ["Mission"] = {},
+        ["Experience"] = 99999999999,
+        ["Shion_Points"] = 9999999999,
+        ["Money"] = 99999999999,
+        ["Layout"] = {
+            [1] = "Awakened Youmu",
+            [2] = "Medicine",
+            [3] = "Yorihime",
+            [4] = "Joon",
+            [5] = "Mokou"
+        },
+        ["OtherItemsOwned"] = {},
+        ["BoughtTowers"] = {
+            [1] = "Reimu",
+            [2] = "Marisa",
+            [3] = "Youmu",
+            [4] = "Awakened Youmu",
+            [5] = "Aya",
+            [6] = "Meiling",
+            [7] = "Eirin",
+            [8] = "Mokou",
+            [9] = "Mokou",
+            [10] = "Mokou",
+            [11] = "Mokou",
+            [12] = "Joon",
+            [13] = "Letty",
+            [14] = "Sanae",
+            [15] = "Yorihime",
+            [16] = "Medicine",
+            [17] = "Yorihime",
+            [18] = "Medicine",
+            [19] = "Joon",
+            [20] = "Mokou",
+            [21] = "Mokou"
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage").DataStoreEvents.CacheSaveData:FireServer(unpack(args))
